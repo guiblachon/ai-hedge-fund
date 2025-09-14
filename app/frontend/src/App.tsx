@@ -4,7 +4,9 @@ import { Toaster } from './components/ui/sonner';
 export default function App() {
   return (
     <>
-      <Layout />
+      <Layout>
+        <div>AI Hedge Fund Application</div>
+      </Layout>
       <Toaster />
     </>
   );

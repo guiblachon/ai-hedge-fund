@@ -32,7 +32,7 @@ type FlowProps = {
 };
 
 export function Flow({ className = '' }: FlowProps) {
-  const { theme, resolvedTheme } = useTheme();
+  const { resolvedTheme } = useTheme();
   
   // Use the resolved theme for ReactFlow ColorMode
   const colorMode: ColorMode = resolvedTheme === 'light' ? 'light' : 'dark';
